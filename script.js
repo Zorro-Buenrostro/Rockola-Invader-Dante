@@ -22,12 +22,12 @@ const items = [
   },
   {
     cover: "oo1990.jpg",
-    src: "La chica yeyé - Ole Ole.mp3",
+    src: "SpotiDownloader.com - La chica yeyé - Ole Ole.mp3",
     title: "La Chica Yeyé - Ole Ole",
   },
   {
     cover: "LosTeenTops.png",
-    src: "La Plaga - Enrique Guzman.mp3",
+    src: "SpotiDownloader.com - La Plaga - Enrique Guzman.mp3",
     title: "La Plaga - Los Teen Tops",
   },
   {
@@ -37,12 +37,12 @@ const items = [
   },
   {
     cover: "31minutos4.jpg",
-    src: "Son Pololos - 31 Minutos.mp3",
+    src: "SpotiDownloader.com - Son Pololos - 31 Minutos.mp3",
     title: "Son Pololos - La Corchetis",
   },
   {
     cover: "Mecano.jpg",
-    src: "Hawaii-Bombay - Mecano.mp3",
+    src: "SpotiDownloader.com - Hawaii-Bombay - Mecano.mp3",
     title: "Hawaii Bombay - Mecano",
   },
 ];
