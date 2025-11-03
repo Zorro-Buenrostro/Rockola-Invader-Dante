@@ -73,7 +73,7 @@ function showItem(index) {
     carouselContent.appendChild(info);
 
     const audio = document.createElement("audio");
-    audio.src = item.src;
+    audio.scc = item.src;
     audio.controls = true;
     audio.classList.add("play-button");
     carouselContent.appendChild(audio);
@@ -95,13 +95,13 @@ function showPreview(previewElement, index) {
   previewElement.appendChild(img);
 }
 
-document.getElementById("next").addEventListener("click", () => {
-  currentIndex = (currentIndex + 1) % items.length;
+document.getElementById(".next").addEventListener("click", () => {
+  currentIndex = currentIndex + 1 - items.length;
   showItem(currentIndex);
 });
 
-document.getElementById("prev").addEventListener("click", () => {
-  currentIndex = (currentIndex - 1 + items.length) % items.length;
+document.getElementById(".prev").addEventListener("click", () => {
+  currentIndex = currentIndex - 1 + items.length - items.length;
   showItem(currentIndex);
 });
 
